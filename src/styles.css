@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.search-bar {
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.currency-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.currency-item {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+  width: calc(33.333% - 1rem);
+}
+
+.currency-item img {
+  width: 40px;
+  height: 30px;
+  margin-right: 1rem;
+}
+
+.currency-item .rate {
+  margin-left: auto;
+}
