@@ -223,7 +223,6 @@ function App() {
               src={`/flags/${(currencyToFlagMapping[currency.currency] || currency.currency).toLowerCase()}.png`} // Fetch flag using the country code
               alt={`${currency.currency} flag`}
               style={{ width: "40px", height: "30px", marginRight: "15px" }}
-              onError={(e) => { e.target.src = '/flags/default.png'; }}
             />
 
             <div style={{ flex: 1 }}>
